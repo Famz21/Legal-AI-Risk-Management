@@ -1,10 +1,10 @@
-# Legal AI Risk Management Chatbot
+# Legal AI Risk Management Chatbot ⚖️🚨
 
 This repository contains the code and resources for the **Legal AI Risk Management Chatbot**, a project developed as part of the AIE4 Midterm Assignment. The chatbot is designed to help users understand and manage risks associated with AI by leveraging Retrieval-Augmented Generation (RAG) and fine-tuned embedding models.
 
 ---
 
-## Key Features
+## Key Features ✨
 
 - **RAG Pipeline**: A robust Retrieval-Augmented Generation system to answer user queries based on AI risk management frameworks.
 - **Fine-Tuned Embeddings**: Custom fine-tuned embeddings using the `snowflake-arctic-embed-m` model for improved performance on domain-specific tasks.
@@ -13,7 +13,7 @@ This repository contains the code and resources for the **Legal AI Risk Manageme
 
 ---
 
-## Repository Structure
+## Repository Structure 📂
 
 ```
 Legal-AI-Risk-Management/
@@ -29,7 +29,7 @@ Legal-AI-Risk-Management/
 
 ---
 
-## Getting Started
+## Getting Started 🛠️
 
 1. **Clone the Repository**:
    ```bash
@@ -50,7 +50,7 @@ Legal-AI-Risk-Management/
 
 ---
 
-## Key Deliverables
+## Key Deliverables 📦
 
 1. **Fine-Tuned Embedding Model**:
    - Model: `Vira21/finetuned_arctic`
@@ -64,7 +64,7 @@ Legal-AI-Risk-Management/
 
 ---
 
-## Evaluation Results
+## Evaluation Results 📊
 
 The RAG pipeline was evaluated using the RAGAS framework. Below are the key metrics for different configurations:
 
@@ -81,33 +81,33 @@ The RAG pipeline was evaluated using the RAGAS framework. Below are the key metr
 
 ---
 
-## Recommendations
+## Recommendations 💡
 
 For internal stakeholder testing, we recommend using the **fine-tuned `snowflake-arctic-embed-m` model** with **semantic chunking**. This configuration balances performance, cost-effectiveness, and domain-specific accuracy.
 
 ---
 
-## Future Work
+## Future Work 🔮
 
-1. **Incorporate Additional Documents**:
+1. **Incorporate Additional Documents** 📜:
    - Add the 270-day update on the 2023 Executive Order on Safe, Secure, and Trustworthy AI.
    - Implement a persistent vector database to handle document updates efficiently.
 
-2. **Enhance Retrieval Architecture**:
+2. **Enhance Retrieval Architecture** 🛡️:
    - Use metadata to manage document versions and improve retrieval relevance.
 
-3. **Expand Evaluation**:
+3. **Expand Evaluation** ⚖️:
    - Conduct user testing with internal stakeholders to gather feedback and further refine the system.
 
 ---
 
-## License
+## License 📜
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Contact
+## Contact 📧
 
 For questions or feedback, please reach out to [your email or contact information].
 
