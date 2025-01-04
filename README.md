@@ -1,9 +1,23 @@
 # Legal AI Risk Management Chatbot ⚖️🚨
 
-
-This repository contains the code and resources for the **Legal AI Risk Management Chatbot**, a project developed as part of the AIE4 Midterm Assignment. The chatbot is designed to help users understand and manage risks associated with AI by leveraging Retrieval-Augmented Generation (RAG) and fine-tuned embedding models.
+This repository contains the code and resources for the **Legal AI Risk Management Chatbot**, a project designed to help users understand and manage risks associated with AI by leveraging Retrieval-Augmented Generation (RAG) and fine-tuned embedding models. The chatbot provides insights into AI risk frameworks, ethical considerations, and best practices, enabling teams to integrate AI responsibly into their workflows.
 
 ---
+
+### **Overview**
+
+The **AI Risk Chatbot** was developed to educate internal teams on understanding, measuring, and managing AI risks. It provides actionable insights into risk frameworks and best practices, enabling stakeholders to navigate AI's potential responsibly. Rolled out to **50 teams** over a month, this initiative empowers employees to integrate AI thoughtfully into business operations while fostering a culture of awareness and accountability.
+
+---
+
+### **Key Highlights**
+
+- **AI Risk Education**: Designed to address questions about AI risks, ethical considerations, and mitigation strategies.  
+- **Responsible AI Adoption**: Supports responsible AI adoption and risk management across the organization.  
+- **Cross-Team Collaboration**: Promotes cross-team learning and collaboration on AI-driven solutions.  
+
+---
+
 
 ## Key Features ✨
 
