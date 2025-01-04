@@ -1,15 +1,21 @@
 # Legal AI Risk Management Chatbot ⚖️🚨
 
+
 This repository contains the code and resources for the **Legal AI Risk Management Chatbot**, a project developed as part of the AIE4 Midterm Assignment. The chatbot is designed to help users understand and manage risks associated with AI by leveraging Retrieval-Augmented Generation (RAG) and fine-tuned embedding models.
 
 ---
 
 ## Key Features ✨
 
+
+
 - **RAG Pipeline**: A robust Retrieval-Augmented Generation system to answer user queries based on AI risk management frameworks.
 - **Fine-Tuned Embeddings**: Custom fine-tuned embeddings using the `snowflake-arctic-embed-m` model for improved performance on domain-specific tasks.
 - **Evaluation Framework**: Comprehensive evaluation using the RAGAS framework to measure faithfulness, answer relevancy, context precision, and context recall.
 - **Deployment**: The chatbot is deployed on Hugging Face Spaces for easy access and testing.
+
+---
+![RAG Application](img/RAG%20Application.png)
 
 ---
 
