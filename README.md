@@ -18,6 +18,9 @@ This repository contains the code and resources for the **Legal AI Risk Manageme
 ```
 Legal-AI-Risk-Management/
 ├── data/                   # Contains datasets and evaluation results
+│   ├── docs_for_rag/       # Documents used for the RAG pipeline (e.g., PDFs, text files)
+│   ├── finetuning_data/    # Data used for fine-tuning the embedding model
+│   └── rag_questions_and_answers/  # Questions and answers for RAG evaluation and testing
 ├── notebooks/              # Jupyter notebooks for RAG setup, evaluation, and fine-tuning
 │   ├── rag_and_ragas_pipelines.ipynb       # RAG setup and evaluation
 │   └── finetuning_embeddings_model.ipynb   # Fine-tuning pipeline
