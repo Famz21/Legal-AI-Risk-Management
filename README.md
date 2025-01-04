@@ -54,7 +54,7 @@ Legal-AI-Risk-Management/
 
 The chatbot is built using the following **LLM app stack**:
 
-![LLM App Stack Diagram](img/LLM app.png)
+![LLM App Stack Diagram](img/LLM%20App.png)
 
 - **Document Loader**: 
   - **PyMuPDF**: For loading and parsing PDF documents.
