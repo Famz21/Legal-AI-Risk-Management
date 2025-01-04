@@ -109,7 +109,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact 📧
 
-For questions or feedback, please reach out to [your email or contact information].
+For questions or feedback, please reach out to me on [LinkedIn](https://www.linkedin.com/in/rithyvira/).
 
 ---
 
