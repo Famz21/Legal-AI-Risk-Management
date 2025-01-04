@@ -67,7 +67,7 @@ The chatbot is built using the following **LLM app stack**:
   - **OpenAI `text-embedding-3-small`**: Baseline embeddings for general-purpose tasks.
   - **Fine-Tuned `snowflake-arctic-embed-m`**: Custom embeddings fine-tuned for domain-specific performance.
 - **LLM**:
-  - **OpenAI `gpt-4-turbo`**: High-performance LLM for generating responses.
+  - **OpenAI `gpt-4o-mini`**: High-performance and cost-effective LLM for generating responses.
 - **Web Framework**:
   - **Chainlit**: Easy-to-use framework for building and deploying LLM-based web apps.
 - **Hosting**:
