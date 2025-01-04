@@ -50,6 +50,31 @@ Legal-AI-Risk-Management/
 
 ---
 
+## LLM App Stack 🛠️
+
+The chatbot is built using the following **LLM app stack**:
+
+![LLM App Stack Diagram](img/LLM app.png)
+
+- **Document Loader**: 
+  - **PyMuPDF**: For loading and parsing PDF documents.
+- **Text Splitting**:
+  - **RecursiveCharacterTextSplitter**: Default chunking strategy for general-purpose text splitting.
+  - **Semantic Chunking**: Alternative strategy for grouping semantically related content.
+- **Vector Store**:
+  - **Qdrant**: In-memory vector store for efficient retrieval.
+- **Embeddings**:
+  - **OpenAI `text-embedding-3-small`**: Baseline embeddings for general-purpose tasks.
+  - **Fine-Tuned `snowflake-arctic-embed-m`**: Custom embeddings fine-tuned for domain-specific performance.
+- **LLM**:
+  - **OpenAI `gpt-4-turbo`**: High-performance LLM for generating responses.
+- **Web Framework**:
+  - **Chainlit**: Easy-to-use framework for building and deploying LLM-based web apps.
+- **Hosting**:
+  - **Hugging Face Spaces**: For deploying and sharing the chatbot.
+
+---
+
 ## Key Deliverables 📦
 
 1. **Fine-Tuned Embedding Model**:
