@@ -96,12 +96,14 @@ The chatbot is built using the following **LLM app stack**:
 
 The RAG pipeline was evaluated using the RAGAS framework. Below are the key metrics for different configurations:
 
+
 | Configuration                     | Faithfulness | Answer Relevancy | Context Precision | Context Recall |
 |-----------------------------------|--------------|------------------|-------------------|----------------|
-| OpenAI Embeddings (Baseline)      | 0.92         | 0.89             | 0.91              | 0.90           |
-| OpenAI Embeddings (Semantic Chunking) | 0.93      | 0.90             | 0.92              | 0.91           |
-| Snowflake-Arctic-Embed-M (Baseline) | 0.75        | 0.72             | 0.70              | 0.68           |
-| Finetuned Arctic Embeddings       | 0.93         | 0.91             | 0.92              | 0.91           |
+| BaselineChunkArcticOrig           | 0.735739     | 0.869516         | 0.745694          | 0.728333       |
+| BaselineChunkArcticFinetuned      | 0.877788     | 0.970543         | 0.985000          | 0.879167       |
+| SemanticChunkArcticOrig           | 0.290917     | 0.297116         | 0.391042          | 0.204167       |
+| SemanticChunkArcticFinetuned      | 0.896071     | 0.969438         | 0.933403          | 0.916667       |
+
 
 **Key Takeaways**:
 - Fine-tuning significantly improved the performance of the `snowflake-arctic-embed-m` model, making it competitive with OpenAI embeddings.
